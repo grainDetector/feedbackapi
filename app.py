@@ -7,7 +7,6 @@ app = Flask(__name__)
 API_key = "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"
 openai.api_key = API_key
 
-
 def get_completion(prompt):
     print(prompt)
     query = openai.Completion.create(
